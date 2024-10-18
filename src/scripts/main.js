@@ -21,7 +21,7 @@ document.querySelectorAll('form').forEach((form) => {
 
     label.textContent = labelText;
 
-    input.placeholder = `Enter your ${labelText}`;
+    input.placeholder = `${labelText}`;
 
     parentField.insertBefore(label, input);
   });
