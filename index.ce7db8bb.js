@@ -1,0 +1,2 @@
+document.querySelectorAll("form").forEach(function(e){e.querySelectorAll("input").forEach(function(e,t){var c=e.closest(".field"),a=document.createElement("label");a.classList.add("field-label"),e.id||(e.id="".concat(e.name||"input","-").concat(t)),a.setAttribute("for",e.id);var n=e.name?e.name.charAt(0).toUpperCase()+e.name.slice(1):"Field ".concat(t+1);a.textContent=n,e.placeholder="".concat(n),c.insertBefore(a,e)})});
+//# sourceMappingURL=index.ce7db8bb.js.map
